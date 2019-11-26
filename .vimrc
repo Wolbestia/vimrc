@@ -48,3 +48,12 @@ function! XTermPasteBegin()
 		    set paste
 			  return ""
 	  endfunction
+	  
+"Syntax highlight for vue files like html 
+autocmd BufRead,BufNewFile *.vue setfiletype html
+
+"Ctrl remap to change tabs
+nnoremap <C-Left> :tabprevious<CR>
+nnoremap <C-Right> :tabnext<CR>
+
+
