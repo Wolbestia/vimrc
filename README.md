@@ -1,5 +1,5 @@
 # vimrc
-Vim configuration
+Vim configuration and also my bash config file to never lose again aliases etc
 
 This is just a mess configuration to make vim work with plugins without a plugin installer that works sometimes. 
 
