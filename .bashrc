@@ -97,15 +97,23 @@ alias la='ls -A'
 alias l='ls -CF'
 
 alias vpnup='sudo -v; sudo -b openvpn /home/pablo/config/client.conf.ovpn; alert "FICHA"'
-
+alias back01='ssh -l forge 10.58.116.48'
+alias fromHome='ssh -L 8000:213.229.190.35:3306 forge@back04.iahorro.com'
 
 alias ..='cd ..'
 alias ff='find . -name'
 alias var='cd /var/www'
 
+alias screen='xrandr -q | grep " connected"'
+alias screenB='xrandr --output HDMI-1 --brightness 0.9'
+
 # Git branch on console ( https://gist.github.com/justintv/168835 )
 
 PS1='\[\033[0;32m\]\[\033[0m\033[0;32m\]\u\[\033[0;36m\] @ \[\033[0;36m\]\h \w\[\033[0;32m\]$(__git_ps1)\n\[\033[0;32m\]└─\[\033[0m\033[0;32m\] \$\[\033[0m\033[0;32m\] ▶\[\033[0m\] '
+
+# KDE Open dolphin here 
+
+alias here='dolphin . &'
 
 # Code Sniffer for PSR2
 
