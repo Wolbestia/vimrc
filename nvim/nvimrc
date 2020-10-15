@@ -1,0 +1,15 @@
+" Highlight while search
+set incsearch
+" Enable Highlight Search
+set hlsearch
+" Press <leader> Enter to remove search highlights
+noremap <silent>  sr <cr> :noh<cr>
+"Ctrl remap to change tabs
+nnoremap <C-Left> :tabprevious<CR>
+nnoremap <C-Right> :tabnext<CR>
+
+"" 4 spaces tab for PSR2
+set showmatch " Shows matching brackets
+set tabstop=4
+set shiftwidth=4
+set expandtab
