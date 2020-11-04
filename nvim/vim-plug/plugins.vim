@@ -10,6 +10,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
     " Better Syntax Support
     Plug 'sheerun/vim-polyglot'
+    Plug 'axelf4/vim-strip-trailing-whitespace'
     " File Explorer
     Plug 'scrooloose/NERDTree'
     " Auto pairs for '(' '[' '{'
